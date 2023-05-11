@@ -78,7 +78,7 @@ public class CountryServiceImpl implements CountryService {
         if(country != null){
             Country lastCountry = countryMapper.responseToCountry(country);
             lastCountry.setPresident(country_presidentRequestDTO.president());
-            return countryMapper.countryToResponse(lastCountry);
+            return countryMapper.countryToResponse(countryRepository.save(lastCountry));
         }
         return null;
     }
