@@ -9,6 +9,16 @@
   Ülke başkanını güncelleyen bir api yazınız
 ```
 
+## Kullanılan Teknolojiler ve IDE
+* Maven
+* Spring Boot
+  * Spring Data JPA
+  * MapStruct
+  * Swagger
+  * DevTools
+* PostgreSQL
+* IntelliJ IDEA
+
 ## Kurulum ve Çalıştırma
 
 Veritabanı olarak PostgreSQL kullanıldı.Kendi kodumda konfigürasyon msdb adında bir veritabanı ile yapıldı.
