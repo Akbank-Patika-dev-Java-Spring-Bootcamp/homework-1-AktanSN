@@ -12,10 +12,11 @@
 ## Kullanılan Teknolojiler ve IDE
 * Maven
 * Spring Boot
+  * Spring Web
+  * Spring Boot DevTools
   * Spring Data JPA
   * MapStruct
   * Swagger
-  * DevTools
 * PostgreSQL
 * IntelliJ IDEA
 
